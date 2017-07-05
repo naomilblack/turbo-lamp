@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Contact</title>
     <link href="styles.css"type="text/css"rel="stylesheet"/>
-    <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+
   </head>
   <body>
     <ul class="nav">
@@ -24,10 +25,24 @@
       <input type="text"name="email"><br />
       <h4>Send me an email!</h4>
       <textarea name="message" cols="30" rows="10"placeholder="Enter a message here">
-      </textarea><br />
-    </fieldset>
 
-      <input type="submit" name="submit" value="submit" onclick="myFunction()">
+      </textarea><br />
+
+      <input type="submit" name="submit" value="submit"
     </form>
+    <form id="bday">
+      <h4> Bonus Question: When is your birthday?:
+      <input type="text"name="txtbirthday" placeholder="January 1, 2000">
+     </h4>
+      <input type="button" value= "Tell my story" onClick="Birthdayclub()"><br />
+
+
+      <h4>My story goes here</h4>
+      <textarea id ="messageBox" cols="30" rows="10">
+      </textarea>
+    </fieldset>
+>
+    </form>
+
   </body>
 </html>
